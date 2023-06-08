@@ -2,15 +2,16 @@
   margin: 50px;
 }
 .card {
-  width: 369px;
+  /* width: 369px; */
   height: 195px;
   position: relative;
 }
 .line {
-  position: absolute;
-  height: 3px;
+  /* position: absolute; */
+  height: 4px;
   width: 100%;
-  background: red;
+  /* background: red; */
+  background: #081a51;
   border-radius: 10px 10px 0px 0px;
   z-index: 2;
 }
@@ -101,13 +102,12 @@
   position: absolute;
   right: 44%;
   top: -15%;
-
-  /* animation: spin 2s linear infinite; */
 }
 .logo:hover {
   height: 55px;
   width: 55px;
   cursor: pointer;
+  animation: spin 2s linear infinite;
 }
 @keyframes spin {
   0% {
