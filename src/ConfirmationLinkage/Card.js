@@ -26,7 +26,7 @@ const Card = () => {
                 type="button"
                 className={`${classes.btnHover} ${classes.hoverColorNo}`}
               >
-                Yes
+                No
               </button>
             </div>
           </div>
